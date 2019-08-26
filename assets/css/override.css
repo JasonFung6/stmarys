@@ -1,0 +1,20 @@
+.img-location {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+.tab {
+    margin-left: 20px;
+}
+
+.contact-one {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.contact-two {
+    margin-left: 50%;
+    height: auto;
+}
