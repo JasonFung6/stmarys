@@ -1,11 +1,15 @@
-.img-location {
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.tab {
-    margin-left: 20px;
+.mgmt-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .contact-one {
@@ -17,4 +21,23 @@
 .contact-two {
     margin-left: 50%;
     height: auto;
+}
+
+.player-one {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.player-two {
+    margin-left: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 736px) {
+
+    .mobile-img {
+        padding: 10px;
+    }
+
 }
